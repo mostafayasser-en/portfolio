@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mostafa Yasser- Ui Developer</title>
+    </head>
+    <body>
+        <header class="active">
+            <a href="#" class="logo">Mostafa Yasser</a>
+
+            <i class="bx bx-menu" id="menu-icon"></i>
+
+            <nav>
+                <a href="#" class="active">Home</a>
+                <!-- <a href="#">Services</a> -->
+                <a href="#">Resume</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+
+        <div class="bars-box active">
+            <div class="bar" style="--i: 6"></div>
+            <div class="bar" style="--i: 5"></div>
+            <div class="bar" style="--i: 4"></div>
+            <div class="bar" style="--i: 3"></div>
+            <div class="bar" style="--i: 2"></div>
+            <div class="bar" style="--i: 1"></div>
+        </div>
+
+        <!--Home section-->
+        <section class="home active">
+            <div class="home-details">
+                <h1>Mostafa Yasser</h1>
+                <h2>
+                    I'm a
+                    <span style="--i: 0" data-text="Coder">Coder</span>
+                    <span style="--i: 1" data-text="Front-End Developer">Front-End Developer</span>
+                    <span style="--i: 2" data-text="Programmer">Programmer</span>
+                    <span style="--i: 3" data-text="Ui Developer">Ui Developer</span>
+                </h2>
+                <p>Hello, My name is Mostafa Yasser I'm Coder and Front End Developer</p>
+                <div class="btn-sci">
+                    <a href="cv.pdf" class="btn">Download CV</a>
+
+                    <div class="sci">
+                        <a href="https://github.com/mostafayasser-en" target="_blank">
+                            <i class="bx bxl-github"></i>
+                        </a>
+                        <!-- <a
+                            href="https://www.linkedin.com/in/mohamed-bashandy-28a84133a/"
+                            target="_blank">
+                            <i class="bx bxl-linkedin"></i>
+                        </a>
+                        <a href="https://www.facebook.com/mohamed.salah.447731" target="_blank">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/mohamedbashandy55/" target="_blank">
+                            <i class="bx bxl-instagram"></i>
+                        </a> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-img">
+                <div class="img-box">
+                    <div class="img-item">
+                        <img src="images/download.jpg" alt="mohamed" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+     <!-- Services Section
+        <section class="services">
+            <h2 class="heading">
+                My
+                <span>Services</span>
+            </h2>
+            <div class="services-container">
+                <div class="services-box">
+                    <div class="icon">
+                        <i class="bx bx-code-alt"></i>
+                        <a href="#"><i class="bx bx-arrow-back"></i></a>
+                    </div>
+                    <h3>Responsive Website Development</h3>
+                    <p>
+                        I build modern and fully responsive websites using HTML, CSS, and JavaScript
+                        to ensure a seamless experience across all devices and screen sizes.
+                    </p>
+                </div>
+
+                <div class="services-box">
+                    <div class="icon">
+                        <i class="bx bx-rocket"></i>
+                        <a href="#"><i class="bx bx-arrow-back"></i></a>
+                    </div>
+                    <h3>Performance Optimization</h3>
+                    <p>
+                        I optimize website speed and performance, ensuring high scores on tools like
+                        Google PageSpeed Insights by improving structure, minimizing code, and
+                        enhancing load time.
+                    </p>
+                </div>
+
+                <div class="services-box">
+                    <div class="icon">
+                        <i class="bx bx-window"></i>
+                        <a href="#"><i class="bx bx-arrow-back"></i></a>
+                    </div>
+                    <h3>Landing Page Design & Development</h3>
+                    <p>
+                        I design and develop high-converting landing pages that are visually
+                        appealing, fast-loading, and SEO-friendly — ideal for marketing and product
+                        launches.
+                    </p>
+                </div>
+                <div class="services-box">
+                    <div class="icon">
+                        <i class="bx bx-palette"></i>
+                        <a href="#"><i class="bx bx-arrow-back"></i></a>
+                    </div>
+                    <h3>UI/UX Improvement & Redesign</h3>
+                    <p>
+                        I redesign outdated or ineffective user interfaces to improve user
+                        intuitive interaction.
+                    </p>
+                </div>
+                <div class="services-box">
+                    <div class="icon">
+                        <experience, accessibility, and engagement, focusing on clean layout and
+                        i class="bx bxl-angular"></i>
+                        <a href="#"><i class="bx bx-arrow-back"></i></a>
+                    </div>
+                    <h3>Interactive Front-End Features with Angular JS</h3>
+                    <p>
+                        I implement interactive components such as sliders, modals, tabs, forms, and
+                        dynamic UI behaviors using JavaScript or Angular JS to enhance user
+                        engagement.
+                    </p>
+                </div>
+                <div class="services-box">
+                    <div class="icon">
+                        <i class="bx bxl-php"></i>
+                        <a href="#"><i class="bx bx-arrow-back"></i></a>
+                    </div>
+                    <h3>Back-End Development</h3>
+                    <p>
+                        I build server-side applications using PHP, MySQL, and other languages to
+                        create dynamic and interactive web applications.
+                    </p>
+                </div>
+                <div class="services-box">
+                    <div class="icon">
+                        <i class="bx bxl-postgresql"></i>
+                        <a href="#"><i class="bx bx-arrow-back"></i></a>
+                    </div>
+                    <h3>Database Management</h3>
+                    <p>
+                        I manage and optimize databases using MySQL, MongoDB, and other database
+                        management tools to ensure data security and performance.
+                    </p>
+                </div>
+                <div class="services-box">
+                    <div class="icon">
+                        <i class="bx bx-package"></i>
+                        <a href="#"><i class="bx bx-arrow-back"></i></a>
+                    </div>
+                    <h3>API Development</h3>
+                    <p>
+                        I build APIs using PHP,Laravel and other languages to create dynamic and
+                        interactive APIS
+                    </p>
+                </div>
+            </div>
+        </section>    -->
+
+        <!--resume Section-->
+        <section class="resume">
+            <div class="resume-container">
+                <div class="resume-box">
+                    <h2>"Why choose me ?</h2>
+                    <p class="desc">
+                        Because I’m passionate about programming and always eager to learn and grow. I may not have much experience yet, but I’m a fast learner, committed, and ready to work hard and gain hands-on experience through this internship.
+
+                    </p>
+                    <button class="resume-btn active">Experience</button>
+                    <button class="resume-btn">Education</button>
+                    <button class="resume-btn">Skills</button>
+                    <button class="resume-btn">About Me</button>
+                </div>
+
+                <div class="resume-box">
+                    <div class="resume-details experience active">
+                        <h2 class="heading">
+                            My
+                            <span>Experience</span>
+                        </h2>
+                        <p class="desc">Here you can see my Experience</p>
+                        <div class="resume-list">
+                            <!-- <div class="resume-item">
+                                <p class="year">2024</p>
+                                <h3>Back End Web Developer</h3>
+                                <p class="company">IT-Plus</p>
+                                <p>
+                                    I was a Back End Web Developer at IT-Plus, where I was
+                                    responsible for building and maintaining the backend of websites
+                                    using PHP, MySQL.
+                                </p>
+                            </div> -->
+
+                            <div class="resume-item">
+                                <p class="year">2025 - Present</p>
+                                <h3>Ui Developer</h3>
+                                <!-- <p class="company">Gawla Houra</p> -->
+                                <p>
+                                    I’m currently learning Front-End Web Development and building responsive websites using HTML, CSS, and JavaScript. I’m actively working on improving my skills through personal projects and training opportunities.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resume-details education">
+                        <h2 class="heading">
+                            My
+                            <span>Education</span>
+                        </h2>
+                        <p class="desc">Here where you see my Education.</p>
+                        <div class="resume-list">
+                            <div class="resume-item">
+                                <p class="year">2020 - 2025</p>
+                                <h3>General Secondary Education</h3>
+                                <p class="company">First Year (Thanaweya Amma)</p>
+                                <p> Sohag, Egypt
+                                    2025 – Present
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resume-details skills">
+                        <h2 class="heading">
+                            My
+                            <span>Skills</span>
+                        </h2>
+                        <p class="desc">The skills that i've learned</p>
+                        <div class="resume-list">
+                            <div class="resume-item">
+                                <i class="bx bxl-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class="bx bxl-css3"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class="bx bxl-javascript"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <!-- <div class="resume-item">
+                                <i class="bx bxl-angular"></i>
+                                <span>Angular JS</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class="bx bxl-tailwind-css"></i>
+                                <span>Tailwind CSS</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class="bx bxl-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class="bx bxl-php"></i>
+                                <span>PHP</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class="laravel-icon"></i>
+                                <span>Laravel</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class="bx bxs-data"></i>
+                                <span>MySQL</span>
+                            </div> -->
+                            <!-- <div class="resume-item">
+                                <i class="bx bxs-package"></i>
+                                <span>API</span>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div class="resume-details about">
+                        <h2 class="heading">
+                            About
+                            <span>Me</span>
+                        </h2>
+                        <p class="desc">Description of me.</p>
+                        <div class="resume-list">
+                            <div class="resume-item">
+                                <p>
+                                    Status
+                                    <span>Single</span>
+                                </p>
+                            </div>
+
+                            <div class="resume-item">
+                                <p>
+                                    City
+                                    <span>Sohog</span>
+                                </p>
+                            </div>
+
+                            <div class="resume-item">
+                                <p>
+                                    Nationality
+                                    <span>Egyption</span>
+                                </p>
+                            </div>
+
+                            <div class="resume-item">
+                                <p>
+                                    Freelance
+                                    <span>Available</span>
+                                </p>
+                            </div>
+
+                            <div class="resume-item">
+                                <p>
+                                    Phone
+                                    <span>+20 1098144212</span>
+                                </p>
+                            </div>
+
+                            <div class="resume-item">
+                                <p>
+                                    languages
+                                    <span>Arabic,English</span>
+                                </p>
+                            </div>
+                            <div class="resume-item">
+                                <p>
+                                    Email
+                                    <span>mustafayasser594@gmail.com</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Portofolio Section-->
+        <section class="portofolio">
+            <h2 class="heading">
+                Latest
+                <span>Project</span>
+            </h2>
+            <div class="portofolio-container">
+                <div class="portofolio-box">
+                    <div class="portofolio-details active">
+                        <p class="numb">01</p>
+                        <h3>Insta EL-Souq</h3>
+                        <p>
+                            E-Commerce Website that allows you to Buy and sell any thing And also is
+                            A social media app can share posts and videos
+                        </p>
+                        <div class="tech">
+                            <p>PHP, MySQL, APIs</p>
+                        </div>
+                        <div class="live-github">
+                            <a href="https://instaelsouq.com/home" target="_blank">
+                                <i class="bx bx-arrow-back"></i>
+                                <span>Live Project</span>
+                            </a>
+                            <a
+                                href="https://play.google.com/store/apps/details?id=co.itplus.dalilelsouqapp"
+                                target="_blank">
+                                <i class="bx bxl-google"></i>
+                                <span>GoogleApps</span>
+                            </a>
+                            <a
+                                href="https://apps.apple.com/eg/app/%D8%A7%D9%86%D8%B3%D8%AA%D8%A7-%D8%A7%D9%84%D8%B3%D9%88%D9%82-%D8%B3%D9%87%D9%84%D9%86%D8%A7-%D8%B9%D9%84%D9%8A%D9%83-%D8%A7%D9%84%D8%B3%D9%88%D9%82/id6503652755"
+                                target="_blank">
+                                <i class="bx bxl-apple"></i>
+                                <span>AppleApps</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portofolio-details">
+                        <p class="numb">02</p>
+                        <h3>ZahraEgypt</h3>
+                        <p>
+                            Online Store Landing Page that allows you to Buy and sell any thing and
+                            also has a good futures
+                        </p>
+                        <div class="tech">
+                            <p>PHP, MySQL, APIs</p>
+                        </div>
+                        <div class="live-github">
+                            <a href="https://zahraegypt.com/" target="_blank">
+                                <i class="bx bx-arrow-back"></i>
+                                <span>Live Project</span>
+                            </a>
+                            <a
+                                href="https://play.google.com/store/apps/details?id=app.zahra.egypt"
+                                target="_blank">
+                                <i class="bx bxl-google"></i>
+                                <span>GoogleApps</span>
+                            </a>
+                            <a
+                                href="https://apps.apple.com/kw/app/zahra-eg/id6448218709"
+                                target="_blank">
+                                <i class="bx bxl-apple"></i>
+                                <span>AppleApps</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- <div class="portofolio-details">
+                        <p class="numb">03</p>
+                        <h3>TechnoNews Scroll Website</h3>
+                        <p>
+                            Technonews Website Landing Page. Includes scroll animations and full
+                            responsiveness.
+                        </p>
+                        <div class="tech">
+                            <p>HTML, CSS, JavaScript</p>
+                        </div>
+                        <div class="live-github">
+                            <a href=" https://ali2653766.github.io/Scrolling-Website/">
+                                <i class="bx bx-arrow-back"></i>
+                                <span>Live Project</span>
+                            </a>
+                            <a href="https://github.com/Ali2653766/Scrolling-Website">
+                                <i class="bx bxl-github"></i>
+                                <span>Github</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portofolio-details">
+                        <p class="numb">04</p>
+                        <h3>Survey Form (FCC Final Project)</h3>
+                        <p>
+                            Servey Form fully accessible form with validations, built with clean
+                            semantic HTML/CSS.
+                        </p>
+                        <div class="tech">
+                            <p>HTML, CSS</p>
+                        </div>
+                        <div class="live-github">
+                            <a href="https://ali2653766.github.io/Survey-Form/">
+                                <i class="bx bx-arrow-back"></i>
+                                <span>Live Project</span>
+                            </a>
+                            <a href="https://github.com/Ali2653766/Survey-Form">
+                                <i class="bx bxl-github"></i>
+                                <span>Github</span>
+                            </a>
+                        </div>
+                    </div> -->
+                </div>
+
+                <div class="portofolio-box">
+                    <!--Image-->
+                    <div class="portofolio-carousel">
+                        <div class="img-slide">
+                            <div class="img-item">
+                                <img src="images/image.png" alt="Insta EL-Souq" />
+                            </div>
+
+                            <div class="img-item">
+                                <img src="images/zahra.png" alt="ZahraEgypt" />
+                            </div>
+                            <!-- <div class="img-item">
+                                <img
+                                    src="images/technonews.png"
+                                    alt="Adidas Product Landing Page" />
+                            </div>
+                            <div class="img-item">
+                                <img src="images/survey.jpg" alt="Adidas Product Landing Page" />
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div class="navigation">
+                        <button class="left-arrow disabled" aria-label="Previous project">
+                            <i class="bx bx-left-arrow-alt"></i>
+                        </button>
+                        <button class="right-arrow" aria-label="Next project">
+                            <i class="bx bx-right-arrow-alt"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="contact-container">
+                <div class="contact-box">
+                    <h2>Let's Work Together</h2>
+                    <p class="desc">
+                        Whether you're offering an internship, looking for a junior front-end collaborator, or just want to talk about design development, or learning paths — I’d love to connect!
+                        I’m always open to opportunities that help me grow and contribute, so feel free to reach out.
+                    </p>
+                    <div class="contact-detail">
+                        <i class="bx bx-phone"></i>
+                        <div class="detail">
+                            <p>Phone</p>
+                            <p>+20 10144212</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <i class="bx bx-envelope-open"></i>
+                        <div class="detail">
+                            <p>Email</p>
+                            <p>mustafayasser594@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-box">
+                    <form action="mustafayasser594@gmail.com">
+                        <h2 class="heading">
+                            Contact
+                            <span>Me</span>
+                        </h2>
+                        <div class="field-box">
+                            <input type="text" placeholder="Full Name" required />
+                            <input type="text" placeholder="Email Adress" required />
+                            <input type="text" placeholder="Phone Number" required />
+                            <input type="text" placeholder="Email Subject" required />
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
